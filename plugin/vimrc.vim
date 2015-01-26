@@ -11,7 +11,7 @@ end
 "" Basics
 
 " Disable strange Vi defaults.
-set nocompatible
+set nocompatiblec
 
 " Turn on filetype plugins (:help filetype-plugin).
 if has('autocmd')
@@ -152,7 +152,7 @@ end
 
 " Use more readable color scheme by default.
 " It works well with `:set colorline` option.
-colorscheme wombat256mod
+colorscheme gruvbox
 
 " Highlight line under cursor. It helps with navigation.
 set cursorline
